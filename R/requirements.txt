@@ -1,0 +1,6 @@
+GA
+tidyverse
+data.table
+doParallel
+plumbr
+
