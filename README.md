@@ -4,7 +4,7 @@ Docker ARM containers for R
 ## Usage
 First build the base image in the root folder. On first build this can take some time.
 ```
-docker built -t armr .
+docker build -t armr .
 ```
 
 Then you can run it.
