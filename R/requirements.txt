@@ -1,6 +1,9 @@
 GA
-tidyverse
+dplyr
+tidyr
+ggplot2
+stringr
+purrr
 data.table
 doParallel
-plumber
 
