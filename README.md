@@ -16,7 +16,7 @@ Or you can build another image that is based off _armr_.
 
 ```
 cd plumber
-docker build -t plumber
+docker build -t plumber .
 docker run --rm -p 8000:8000 plumber
 ```
 
