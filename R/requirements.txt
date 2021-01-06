@@ -6,4 +6,4 @@ stringr
 purrr
 data.table
 doParallel
-
+remotes
