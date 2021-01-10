@@ -20,5 +20,12 @@ docker build -t plumber .
 docker run --rm -p 8000:8000 plumber
 ```
 
+## Sub images
+All these sub images rely on the base image, armr, and are experimental.
+
+* plumber
+* doparallel
+* rstudioserver
+
 ## Notes
 Plumber is a work in progress.
