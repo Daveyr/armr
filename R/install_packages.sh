@@ -1,5 +1,5 @@
 #!/usr/bin/bash
 while IFS=" " read -r package version; 
 do 
-  Rscript -e "install.packages('"$package"', repos='https://cloud.r-project.org/')"; 
+  Rscript -e "install.packages('"$package"')"; 
 done < "/home/R/requirements.txt"
