@@ -7,3 +7,6 @@ purrr
 data.table
 doParallel
 remotes
+devtools
+testthat
+covr
