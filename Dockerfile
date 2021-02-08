@@ -1,6 +1,6 @@
 FROM arm32v7/ubuntu:18.04
 ENV DEBIAN_FRONTEND=noninteractive
-RUN apt update && apt install gnupg2 libcurl4-openssl-dev apt-utils libatlas3-base libopenblas-base -y
+RUN apt update && apt install --yes gnupg2 libcurl4-openssl-dev apt-utils libatlas3-base libopenblas-base
 # import package repository and key
 #RUN apt-key adv --keyserver keys.gnupg.net --recv-key 'E19F5F87128899B192B1A2C2AD5F960A256A04AF'
 #RUN echo 'deb http://cloud.r-project.org/bin/linux/debian buster-cran40/' | tee -a /etc/apt/sources.list
@@ -9,7 +9,7 @@ RUN apt update && apt install gnupg2 libcurl4-openssl-dev apt-utils libatlas3-ba
 #RUN apt update && apt install -t stretch-cran35 -f r-base -y
 
 # Make R from source
-RUN apt-get install -y gfortran libreadline6-dev libx11-dev libxt-dev \
+RUN apt-get install --yes gfortran libreadline6-dev libx11-dev libxt-dev \
                                libpng-dev libjpeg-dev libcairo2-dev xvfb \
                                libbz2-dev libzstd-dev liblzma-dev \
                                libcurl4-openssl-dev \
