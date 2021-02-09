@@ -15,7 +15,8 @@ RUN apt-get install --yes gfortran libreadline6-dev libx11-dev libxt-dev \
                                libcurl4-openssl-dev \
                                texinfo texlive texlive-fonts-extra \
                                screen wget libpcre2-dev
-RUN apt-get install --yes libgit2-dev
+# Devtools dependencies
+RUN apt-get install --yes libgit2-dev libxml2-dev
 WORKDIR "/usr/local/src"
 # Base R
 RUN wget https://cran.rstudio.com/src/base/R-4/R-4.0.3.tar.gz
