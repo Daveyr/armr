@@ -1,5 +1,5 @@
 # armr
-Docker ARM containers for R
+Docker ARM containers for R. The base image contains `R 4.0.3` along with `devtools`, `testthat` and common libraries. It is verified for use as the base image for a Raspberry Pi [Gitlab runner](https://github.com/Daveyr/gitlab-runner).
 
 ## Usage
 First build the base image in the root folder. On first build this can take some time.
